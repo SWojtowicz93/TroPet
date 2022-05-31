@@ -21,38 +21,48 @@
 </head>
 
 <body>
+	<div class="main_container">
+        <header>
+            <?php require_once "header.php"; 
+            ?>
+            
+        </header>
+        <div class="container">		
+	        <div class = "zdj">
+                <div class="title">
+                    
+                <div class="title-bg">
+                    <h2> Tropet - znajdź swojego pupila</h2>
+                </div>
+				<div class="login">
+		
+					<form action = "login.php" method = "post">
+	
+						Login:<br/><input type = "text" name = "login" /> <br/>
+
+						Hasło:<br/><input type = "password" name = "haslo" /> <br/> <br/>
+	
+						<input type = "submit" value = "Zaloguj się" />
 
 
-<header>
-		<?php require_once "header.php"; 
+					</form>
+					<br/>
+					<A href = "rejestracja.php"> Zarejestruj się </a>
+					<br/>
+				</div>	
+				<?php
+					if(isset($_SESSION['blad']))
+						echo $_SESSION['blad'];
+						unset($_SESSION['blad']);
+				?>
+            </div>
+		        <img class="first" src = "src/dog.jpg">
+	        </div>
+        </div>
+		<?php
+			require_once "footer.php";
 		?>
-	
-	</header>
-<div class="login">
-	Tropet - znajdź swojego pupila<br/><br/>
-	
-	<form action = "login.php" method = "post">
-		
-		Login:<br/><input type = "text" name = "login" /> <br/>
-
-		Hasło:<br/><input type = "password" name = "haslo" /> <br/> <br/>
-		
-		<input type = "submit" value = "Zaloguj się" />
-
-	
-	</form>
-	<br/>
-	<A href = "rejestracja.php"> Zarejestruj się </a>
-	<br/>
-</div>	
-<?php
-		if(isset($_SESSION['blad']))
-			echo $_SESSION['blad'];
-			unset($_SESSION['blad']);
-?>
-	<?php
-	require_once "footer.php";
-	?>
+	</div>		
 </body>
 </html>	
 	
