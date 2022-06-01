@@ -533,3 +533,51 @@ h2
     width:100%;
     box-sizing:border-box;
 }
+
+.input_contact[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.input_contact[type=submit] 
+{
+    background-color: rgb(203, 238, 243);
+    border: 2px solid rgb(82, 1, 1);
+    border-radius: 30px;
+    box-shadow: rgb(116, 18, 18) 4px 4px 0 0;
+    color: rgb(82, 1, 1);
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 8px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+.input_contact[type=submit]:hover  
+{
+    background-color: #fff;
+}
+
+.input_contact[type=submit]:active 
+{
+    box-shadow: rgb(82, 1, 1) 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .input_contact[type=submit] {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
