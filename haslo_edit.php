@@ -107,12 +107,12 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>TroPet - Profil Twojego pupila</title>
-	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="socialmedia.css">
+	<title>Find_Me - znajdź swojego pupila</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="socialmedia.css">
 	<style>
 	.error
 	{
