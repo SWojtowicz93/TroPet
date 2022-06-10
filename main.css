@@ -1,5 +1,6 @@
 body
 {
+    font-family: 'Noto Serif', serif;
     margin: 0;
    /* background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #d9afd954 0%, #97dae193 37%, #ffffff 65%);*/
@@ -22,7 +23,6 @@ body
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Noto Serif', serif;
    /* position: fixed;  Set the navbar to fixed position */
     min-width: 100%;
     min-height: 15%;
@@ -185,7 +185,6 @@ nav
     display: flex;
     flex: 1;
     flex-direction:column;
-    font-family: 'Noto Serif', serif;
     opacity: 0,5;
     margin: auto;
     width: 40%;
@@ -219,7 +218,6 @@ nav
     display: flex;
     flex: 1;
     flex-direction:row;
-    font-family: 'Noto Serif', serif;
     opacity: 0,5;
     margin: auto;
     padding: 10px;
@@ -345,7 +343,6 @@ nav
     display: flex;
     flex: 1;
     flex-direction:row;
-    font-family: 'Noto Serif', serif;
     z-index: 3;
     opacity: 0,5;
     margin: auto;
@@ -471,7 +468,6 @@ nav
 
 .footer_politic
 {
-    font-family: 'Noto Serif', serif;
     text-align: left;
     flex: 0 2 23%;
 }
@@ -495,7 +491,6 @@ text-decoration: none;
 
 .footer_contact
 {
-    font-family: 'Noto Serif', serif;
     text-align: left;
     padding-left: 5%;
     color: rgb(82, 1, 1);
@@ -505,8 +500,6 @@ text-decoration: none;
 
 .footer_copyright
 {
-    
-    font-family: 'Noto Serif', serif;
     clear: both;
     text-align: center;
     background-color: rgb(180, 246, 255);
@@ -523,7 +516,7 @@ h2
 {
     background: #bada55;
     color: white;
-    font-family: Droid Sans;
+    font-family: 'Droid Sans';
     font-size: 18px;
     line-height: 1.6em;
     font-weight: bold;
